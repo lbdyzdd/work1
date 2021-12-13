@@ -1,0 +1,11 @@
+git config --global user.name "*****"
+git config --global user.email "*****" (与github中登录email一致)
+git init   
+
+git add  文件名/.      从工作区到暂存区
+git status 查看版本库文件状态
+git commit -m "版本注释"      从暂存区到版本库
+
+git log 显示版本库中的代码版本
+git reset --hard  commitID  回到指定历史版本
+git reflog
